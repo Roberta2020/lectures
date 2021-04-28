@@ -47,8 +47,8 @@ class GradeController extends Controller
         $grade = new Grade();
         $grade->fill($request->all());
         return ($grade->save() !== 1)
-            ? redirect('/grades')->with('status_success', 'Pažimys pridėtas!')
-            : redirect('/grades')->with('status_error', 'Pažimys negali būti pridėtas!');
+            ? redirect('/grades')->with('status_success', 'Pažymys pridėtas!')
+            : redirect('/grades')->with('status_error', 'Pažymys negali būti pridėtas!');
     }
 
     /**
@@ -91,8 +91,8 @@ class GradeController extends Controller
         ]);
         $grade->fill($request->all());
         return ($grade->save() !== 1)
-            ? redirect('/grades')->with('status_success', 'Pažimys paredaguotas!')
-            : redirect('/grades')->with('status_error', 'Pažimys negali būti paredaguotas!');    }
+            ? redirect('/grades')->with('status_success', 'Pažymys paredaguotas!')
+            : redirect('/grades')->with('status_error', 'Pažymys negali būti paredaguotas!');    }
 
     /**
      * Remove the specified resource from storage.
@@ -103,6 +103,6 @@ class GradeController extends Controller
     public function destroy(Grade $grade)
     {
         $grade->delete();
-        return redirect('/grades')->with('status_success', 'Pažimys ištrinta!');   
+        return redirect('/grades')->with('status_success', 'Pažymys ištrintas!');   
     }
 }
