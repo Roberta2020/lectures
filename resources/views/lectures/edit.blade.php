@@ -45,6 +45,9 @@
                                         class="form-control">{{ $lecture->description }}</textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Pakeisti</button>
+                                <div class="form-group row" style="float: right; margin-right:2px;">
+                                    <a href="/lecture" class="btn btn-primary">Atgal</a>
+                                </div>
                             </form>
                         </div>
                     </div>

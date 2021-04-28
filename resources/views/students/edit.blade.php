@@ -58,6 +58,9 @@
                                     <input type="text" name="phone" class="form-control" value="{{ $student->phone }}">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Pakeisti</button>
+                                <div class="form-group row" style="float: right; margin-right:2px;">
+                                    <a href="/student" class="btn btn-primary">Atgal</a>
+                                </div>
                             </form>
                         </div>
                     </div>

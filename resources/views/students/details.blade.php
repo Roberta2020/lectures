@@ -13,6 +13,9 @@
                 <div class="col-sm-6">{{$grade->grade}}</div>
             </div>
         @endforeach
+        <div class="form-group row" style="float: right; margin-right:2px;">
+            <a href="/student" class="btn btn-primary">Atgal</a>
+        </div>
     </div>
 </div>
 @endsection

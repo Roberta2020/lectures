@@ -61,6 +61,9 @@
                                     <input type="number" name="grade" class="form-control" value="{{ $grade->grade }}">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Pakeisti</button>
+                                <div class="form-group row" style="float: right; margin-right:2px;">
+                                    <a href="/grades" class="btn btn-primary">Atgal</a>
+                                </div>
                             </form>
                         </div>
                     </div>

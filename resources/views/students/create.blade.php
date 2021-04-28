@@ -58,6 +58,9 @@
                                     <input type="text" name="phone" class="form-control">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Pridėti</button>
+                                <div class="form-group row" style="float: right; margin-right:2px;">
+                                    <a href="/student" class="btn btn-primary">Atgal</a>
+                                </div>
                             </form>
                         </div>
                     </div>

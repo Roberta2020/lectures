@@ -43,7 +43,10 @@
                                     <label>Aprašymas: </label>
                                     <textarea id="mce" name="description" rows=10 cols=100 class="form-control"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Pridėti</button>
+                                <div class="form-group row" style="float: right; margin-right:2px;">
+                                    <a href="/lecture" class="btn btn-primary">Atgal</a>
+                                </div>
                             </form>
                         </div>
                     </div>
